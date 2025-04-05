@@ -1,0 +1,8 @@
+.specialImg{
+    margin: 150px;
+}
+@media screen and (max-width: 768px){
+    .specialImg{
+        margin-top: 300px;
+    }
+}

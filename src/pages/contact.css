@@ -1,0 +1,44 @@
+.numeroTelefono{
+    display: flex;
+    width: 500px;
+    /* background-color: aliceblue; */
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    color: white;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: x-large;
+    transition: 0.5s;
+}
+
+#numeroTelefono svg{
+    margin-top: 5px;
+    width: 50px;
+}
+
+.numeroTelefono a{
+    text-decoration-line: none;
+}
+.ContactBox{
+    display: flex;
+    flex-direction: column;
+    /* border: solid black; */
+    padding: 30px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    /* border-radius: 50px; */
+    width: 50%;
+    height: 250px;
+}
+@media screen and (max-width: 500px) {
+    .ContactBox{
+        width: 100%;
+
+    }
+}
+
+.numeroTelefono:hover{
+    color: rgb(33, 193, 193);
+    transition: 0.5s;
+}
+
