@@ -19,11 +19,6 @@ app.use(bodyParser.json()); // Parsear JSON en las solicitudes
 
 // Configuración del pool de conexiones
 const pool = mysql.createPool({
-  host: 'PMYSQL172.dns-servicio.com', // Cambia esto si usas otro host
-  user: 'aegarcia5b_cm27y5v6',       // Tu usuario de MySQL
-  password: 'PRiK10!_X',             // Tu contraseña de MySQL
-  database: '10358585_ricardo',      // El nombre de tu base de datos
-  port: 3306,                        // Puerto de conexión
   waitForConnections: true,          // Esperar conexiones cuando el pool esté lleno
   connectionLimit: 10,               // Número máximo de conexiones en el pool
   queueLimit: 0,                     // Límite de cola (0 significa sin límite)
